@@ -37,8 +37,8 @@ from 'fs' import { readFile };
 from 'fs' import { readFile as read };
 ```
 
-＃ Plans:
-- In the short term, you need to implement a babel (and other) plugin.
+# Plans:
+- Short term, we need to implement a babel (and other) plugins.
 - Long term, we need to add a new import method to the EcmaScript specification.
 
 
