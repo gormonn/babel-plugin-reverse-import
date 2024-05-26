@@ -2,4 +2,4 @@
 from 'fs' import fs;
 
 # Materials
-- https://github.com/jamiebuilds/babel-handbook/tree/master/translations/en
+- [Plugins handbook](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md)
