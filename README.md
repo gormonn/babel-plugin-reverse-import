@@ -44,7 +44,7 @@ from 'fs' import { readFile as read };
 
 # Motivations
 - https://github.com/eslint-stylistic/eslint-stylistic/discussions/409
-- fun
+- The order matters: it provides a more pleasant DX, simplifies manual code analysis, and reduces the cognitive load on the developer. Because for a code reviewer, where the import comes from is much more important than what is imported.
 
 # Materials
 - [Plugins handbook](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md)
