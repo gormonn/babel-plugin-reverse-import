@@ -1,9 +1,7 @@
 # babel-plugin-reverse-import
-from 'fs' import fs;
-
 Here's how imports look in various programming languages:
 
-## JavaScript / ECMAScript:
+JavaScript / ECMAScript:
 ```javascript
 // Standard import
 import fs from 'fs';
@@ -15,7 +13,7 @@ import { readFile } from 'fs';
 import { readFile as read } from 'fs';
 ```
 
-## Python
+Python:
 ```python
 # Import entire module
 import math
@@ -27,6 +25,17 @@ from math import sqrt
 from math import sqrt as square_root
 ```
 
+Babel-pugin target:
+```javascript
+// Standard import
+from 'fs' import fs;
+
+// Named import
+from 'fs' import { readFile };
+
+// Import with renaming
+from 'fs' import { readFile as read };
+```
 
 # Motivations
 - https://github.com/eslint-stylistic/eslint-stylistic/discussions/409
