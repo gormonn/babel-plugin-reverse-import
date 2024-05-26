@@ -37,6 +37,11 @@ from 'fs' import { readFile };
 from 'fs' import { readFile as read };
 ```
 
+＃ Plans:
+- In the short term, you need to implement a babel (and other) plugin.
+- Long term, we need to add a new import method to the EcmaScript specification.
+
+
 # Motivations
 - https://github.com/eslint-stylistic/eslint-stylistic/discussions/409
 - fun
