@@ -48,6 +48,7 @@ from 'fs' import { readFile as read };
 
 # Materials
 - [Plugins handbook](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md)
+- [Babel Plugin Tester](https://github.com/babel-utils/babel-plugin-tester)
 - [ESTree](https://github.com/estree/estree)
 - [AST spec](https://github.com/babel/babylon/blob/master/ast/spec.md)
 - [AST playground](https://astexplorer.net/)
