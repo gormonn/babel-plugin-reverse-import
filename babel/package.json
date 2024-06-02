@@ -1,0 +1,10 @@
+{
+  "name": "babel-plugin-reverse-import",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/plugin.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-tester": "^11.0.4"
+  }
+}
